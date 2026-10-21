@@ -1,0 +1,9 @@
+{
+  "name": "sistema-reservas",
+  "version": "0.1.0",
+  "description": "Sistema de gestion de clientes, servicios y reservas",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/run.js"
+  }
+}
