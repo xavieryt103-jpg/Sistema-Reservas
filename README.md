@@ -13,7 +13,7 @@ npm test
 
 ## Modulos
 - Servicios: permite registrar servicios con precio y duracion, y consultarlos.
-
+- Clientes: permite registrar clientes, modificar su informacion y consultarlos. 
 ## Equipo
 - Lluen Guevara Xavier
 - Mejia Diaz Anthony
