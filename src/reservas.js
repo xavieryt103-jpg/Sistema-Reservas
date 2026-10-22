@@ -37,4 +37,17 @@ function listarReservas() {
   return reservas;
 }
 
-module.exports = { registrarReserva, listarReservas };
+// Cancela una reserva activa
+function cancelarReserva(id) {
+  const reserva = reservas.find((r) => r.id === id);
+  if (!reserva) {
+    throw new Error("Reserva no existe");
+  }
+  if (reserva.estado === "cancelada") {
+    throw new Error("La reserva ya esta cancelada");
+  }
+  reserva.estado = "cancelada";
+  return reserva;
+}
+
+module.exports = { registrarReserva, listarReservas, cancelarReserva };
