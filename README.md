@@ -12,7 +12,7 @@ npm start
 npm test
 
 ## Modulos
-(pendiente de documentar)
+- Servicios: permite registrar servicios con precio y duracion, y consultarlos.
 
 ## Equipo
 - Lluen Guevara Xavier
