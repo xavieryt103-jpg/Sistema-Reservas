@@ -7,7 +7,12 @@ function registrarServicio(nombre, precio, duracionMinutos) {
   }
   if (precio <= 0) {
     throw new Error("El precio debe ser mayor a 0");
+    
   }
+   if (duracionMinutos <= 0) {
+    throw new Error("La duracion debe ser mayor a 0");
+  }
+
   const servicio = { id: servicios.length + 1, nombre, precio, duracionMinutos };
   servicios.push(servicio);
   return servicio;
