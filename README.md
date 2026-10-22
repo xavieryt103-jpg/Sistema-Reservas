@@ -12,7 +12,7 @@ npm start
 npm test
 
 ## Modulos
-(pendiente de documentar)
+- Clientes: permite registrar clientes, modificar su informacion y consultarlos.
 
 ## Equipo
 - Lluen Guevara Xavier
