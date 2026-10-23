@@ -13,6 +13,7 @@ npm test
 
 ## Modulos
 - Servicios: permite registrar servicios con precio y duracion, y consultarlos.
+- Reservas: permite registrar reservas seleccionando cliente, servicio, fecha y hora, consultarlas y cancelarlas.
 - Clientes: permite registrar clientes, modificar su informacion y consultarlos. 
 ## Equipo
 - Lluen Guevara Xavier
